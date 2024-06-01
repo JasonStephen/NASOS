@@ -18,7 +18,6 @@ public class LogManager {
     }
 
     public void log(String message) {
-        // Implementation for logging messages
-        System.out.println(message);
+        System.out.println("LOG: " + message);
     }
 }

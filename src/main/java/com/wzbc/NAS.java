@@ -10,19 +10,14 @@ public class NAS {
     private LogManager logManager;
     private FileSystemManager fileSystemManager;
 
-    public NAS() {
-        this.configManager = ConfigurationManager.getInstance();
-        this.logManager = LogManager.getInstance();
-        this.fileSystemManager = FileSystemManager.getInstance();
-    }
-
     public void start() {
-        // Implementation for starting the NAS
+        configManager = ConfigurationManager.getInstance();
+        logManager = LogManager.getInstance();
+        fileSystemManager = FileSystemManager.getInstance();
         logManager.log("NAS started.");
     }
 
     public void stop() {
-        // Implementation for stopping the NAS
         logManager.log("NAS stopped.");
     }
 }

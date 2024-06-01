@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAS File System Manager</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>NAS File System Manager</h1>
+<div class="container">
+    <div class="file-actions">
+        <h2>File Operations</h2>
+        <input type="text" id="filePath" placeholder="File Path">
+        <textarea id="fileContent" placeholder="File Content"></textarea>
+        <button id="createFile">Create File</button>
+        <button id="readFile">Read File</button>
+        <button id="deleteFile">Delete File</button>
+    </div>
+    <div class="directory-actions">
+        <h2>Directory Operations</h2>
+        <input type="text" id="dirPath" placeholder="Directory Path">
+        <button id="createDir">Create Directory</button>
+        <button id="deleteDir">Delete Directory</button>
+    </div>
+    <div class="output">
+        <h2>Output</h2>
+        <pre id="outputContent"></pre>
+    </div>
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -18,10 +18,10 @@ public class ConfigurationManager {
     }
 
     public void loadConfig(String file) {
-        // Implementation for loading configuration from a file
+        // Load configuration from file
     }
 
     public void saveConfig(String file) {
-        // Implementation for saving configuration to a file
+        // Save configuration to file
     }
 }
