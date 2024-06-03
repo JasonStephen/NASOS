@@ -10,11 +10,11 @@ public class File {
     }
 
     public String read() {
-        // Implementation for reading the file content
+        // 读取文件的内容
         return "";
     }
 
     public void write(String content) {
-        // Implementation for writing to the file
+        // 文件写入内容
     }
 }

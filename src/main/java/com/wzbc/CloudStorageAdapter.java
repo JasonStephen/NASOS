@@ -8,17 +8,17 @@ package com.wzbc;
 public class CloudStorageAdapter implements StorageAdapter{
     @Override
     public void saveFile(String path, String content) {
-        // Implementation for saving a file to the cloud
+        // 将文件保存到云端
     }
 
     @Override
     public String readFile(String path) {
-        // Implementation for reading a cloud file
+        // 将云端读取文件
         return "";
     }
 
     @Override
     public void deleteFile(String path) {
-        // Implementation for deleting a cloud file
+        // 将文件从云端删除
     }
 }
